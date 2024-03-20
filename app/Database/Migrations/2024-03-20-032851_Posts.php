@@ -45,6 +45,6 @@ class Posts extends Migration
 
     public function down()
     {
-      $this->forge->dropTable('posts')
+      $this->forge->dropTable('posts');
     }
 }
